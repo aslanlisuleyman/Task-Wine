@@ -1,0 +1,18 @@
+.karts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.umumi{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    text-align: center;
+    padding-top: 100px;
+}
+input{
+    height: 37px;
+    margin-left: 60px;
+    width: 200px;
+}

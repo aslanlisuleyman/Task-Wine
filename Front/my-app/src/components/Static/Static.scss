@@ -1,0 +1,102 @@
+
+@media only screen and (min-width: 300px)  and (max-width: 600px) {
+    body {
+      background-color: rgb(241, 251, 255);
+    }
+
+
+       
+  }
+
+
+.sekil{
+    height: 500px;
+    background-image: url("https://preview.colorlib.com/theme/wines/images/hero_2.jpg.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.7;
+    h1{
+        font-size: 80px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+.static{
+    margin-top: 150px;
+    background-color: rgb(250, 249, 249);
+    padding-bottom: 110px;
+}
+
+.people{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    img{
+        border-radius: 50%;
+        width: 70px;
+    }
+    text-align: center;
+    .human{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        justify-content: center;
+        img{
+            margin-left: 40%;
+        }
+        h5{
+            color: rgb(186, 186, 186);
+        }
+        p{
+            color: purple;
+            font-weight: 700;
+        }
+    }
+}
+
+.car{
+    img{
+        width: 340px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.son{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    h2{
+        color: rgb(180, 4, 180);
+    }
+    
+    
+    .sonn{
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        h4{
+            font-size: 23px;
+            color: rgb(127, 127, 127);
+        }
+        p{
+            font-size: 15.9px;
+            color: rgb(181, 179, 179);
+        }
+        h5{
+            font-size: 15px;
+            color: rgb(157, 156, 156);
+        }
+    }
+}

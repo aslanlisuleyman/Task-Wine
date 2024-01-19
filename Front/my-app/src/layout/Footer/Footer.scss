@@ -1,0 +1,29 @@
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+   
+    .ic{
+         background-color: #930077; width: 40px;
+         border-radius: 50%;
+         height: 40px;
+         text-align: center;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         i{
+            color: white;
+         }
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
